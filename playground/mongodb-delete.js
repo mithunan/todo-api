@@ -8,9 +8,9 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', {useNewUrlParser: true}
    console.log('Connected to mongoDB Server');
    const db = client.db('TodoApp');
 
-   //deleteMany
    // db.collection('Todos').deleteMany({text: 'Eat lunch'}).then((result) => {
    //    console.log(result);
+   //deleteMany
    // });
 
    //deleteOne

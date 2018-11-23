@@ -80,14 +80,6 @@ app.delete('/todos/:id', (req,res) =>{
       //400 with empty body
       res.status(400).send();
    });
-
-
-
-
-
-
-
-
 });
 
 

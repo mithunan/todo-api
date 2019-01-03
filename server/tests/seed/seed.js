@@ -34,7 +34,7 @@ const populateTodos = (done) => {
    Todo.deleteMany({}).then(() => {
       return Todo.insertMany(todos);
    }).then(() => done());
-}
+};
 
 const populateUsers = (done) => {
    User.remove({}).then(() => {
